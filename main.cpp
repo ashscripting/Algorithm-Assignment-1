@@ -80,7 +80,6 @@ int main(){
                         cout << "Enter the product category: " << endl;
                         getline(cin, category);
                         input.edit_item(id, name, price, category);
-                        cout << "Product Edited Successfully." << endl;
                         break;
                     }
                     cout << "Invalid ID! Product with this id doesn't exist" << endl;
