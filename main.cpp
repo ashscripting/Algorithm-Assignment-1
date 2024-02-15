@@ -50,6 +50,7 @@ int main(){
                 cout << "Enter the product category: " << endl;
                 getline(cin, category);
                 input.new_item(id, name, price, category);
+                cout << "Product added successfully."<<endl;
                 break;
             case 4:
                 cout << "Enter the id opf the product you wish to remove: " << endl;
