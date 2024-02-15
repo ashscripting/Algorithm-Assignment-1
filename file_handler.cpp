@@ -101,40 +101,31 @@ void file_handler::remove_item (std::string& id){
 }
 
 void file_handler::edit_item(std::string &id, std::string &name, std::string &price, std::string &category) {
-    double temp_price;
-    for (Item &item: items) {
-        if (item.Id == stoi(id) && name.empty()) {
-            name = item.Name;
-        } else if (item.Id == stoi(id) && price.empty()) {
-            temp_price = item.Price;
-        } else if (item.Id == stoi(id) && category.empty()) {
-            category = item.Category;
+   bool loop {true};
+    do{
+        try{
+                for (Item &item: items) {
+                    if (item.Id == stoi(id)) {
+                        if (!name.empty()) {
+                            item.Name = name;
+                        }
+                        if (!price.empty()) {
+                            item.Price = stod(price);
+                        }
+                        if (!category.empty()) {
+                            item.Category = category;
+                        }
+                    }
+                    loop = false;
+                    std::cout << " Product edited successfully" << std::endl;
+                }
         }
-        try {
-            if (item.Id == stoi(id) && !price.empty()) {
-                item.Name = name;
-                item.Price = stod(price);
-                item.Category = category;
-                std::cout << "Item edited successfully!" << std::endl;
-                break;
-            } else if (item.Id == stoi(id) && price.empty()) {
-                item.Name = name;
-                item.Price = temp_price;
-                item.Category = category;
-                std::cout << "Item edited successfully!" << std::endl;
-                break;
-            }
-        }
-        catch (std::invalid_argument &) {
-            std::cout << "Invalid Input!!!" << std::endl;
-        }
-            std::cout << "Failed to edit the item!" << std::endl;
+        catch (std::invalid_argument&) {
+            std::cout << "Invalid input!!!" << std::endl;
             break;
         }
-    //remove_item(id);
-    //new_item(id, name, price, category);
-    }
-
+    }while(loop);
+}
 
 
 void file_handler::Sort() {
