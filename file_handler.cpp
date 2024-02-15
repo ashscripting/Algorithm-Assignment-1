@@ -124,7 +124,7 @@ void file_handler::edit_item(std::string &id, std::string &name, std::string &pr
                 std::cout << "Item edited successfully!" << std::endl;
                 break;
             } else {
-                std::cout << "Failed to edit teh product!" << std::endl;
+                std::cout << "Failed to edit the item!" << std::endl;
                 break;
             }
         }
