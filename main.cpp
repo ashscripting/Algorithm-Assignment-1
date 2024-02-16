@@ -53,7 +53,7 @@ int main(){
                 cout << "Product added successfully."<<endl;
                 break;
             case 4:
-                cout << "Enter the id opf the product you wish to remove: " << endl;
+                cout << "Enter the id of the product you wish to remove: " << endl;
                 cin >> id;
                 try{
                 if (input.is_id_there(stoi(id))) {

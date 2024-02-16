@@ -117,8 +117,8 @@ void file_handler::edit_item(std::string &id, std::string &name, std::string &pr
                         }
                     }
                     loop = false;
-                    std::cout << " Product edited successfully" << std::endl;
                 }
+                std::cout << " Product edited successfully" << std::endl;
         }
         catch (std::invalid_argument&) {
             std::cout << "Invalid input!!!" << std::endl;
