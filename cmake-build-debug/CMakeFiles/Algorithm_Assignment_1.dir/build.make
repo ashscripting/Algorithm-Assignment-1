@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\morta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = C:\Users\morta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1
+CMAKE_SOURCE_DIR = C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Algorithm_Assignment_1.dir/depend.make
@@ -69,32 +69,32 @@ include CMakeFiles/Algorithm_Assignment_1.dir/progress.make
 include CMakeFiles/Algorithm_Assignment_1.dir/flags.make
 
 CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj: CMakeFiles/Algorithm_Assignment_1.dir/flags.make
-CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj: C:/Users/Arshia/Desktop/Algo/Algorithm-Assignment-1/main.cpp
+CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj: C:/Users/morta/OneDrive/Desktop/Algorithm-Assignment-1/main.cpp
 CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj: CMakeFiles/Algorithm_Assignment_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj"
-	"D:\CLion 2022.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj -MF CMakeFiles\Algorithm_Assignment_1.dir\main.cpp.obj.d -o CMakeFiles\Algorithm_Assignment_1.dir\main.cpp.obj -c C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj"
+	C:\Users\morta\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj -MF CMakeFiles\Algorithm_Assignment_1.dir\main.cpp.obj.d -o CMakeFiles\Algorithm_Assignment_1.dir\main.cpp.obj -c C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\main.cpp
 
 CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.i"
-	"D:\CLion 2022.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\main.cpp > CMakeFiles\Algorithm_Assignment_1.dir\main.cpp.i
+	C:\Users\morta\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\main.cpp > CMakeFiles\Algorithm_Assignment_1.dir\main.cpp.i
 
 CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.s"
-	"D:\CLion 2022.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\main.cpp -o CMakeFiles\Algorithm_Assignment_1.dir\main.cpp.s
+	C:\Users\morta\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\main.cpp -o CMakeFiles\Algorithm_Assignment_1.dir\main.cpp.s
 
 CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj: CMakeFiles/Algorithm_Assignment_1.dir/flags.make
-CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj: C:/Users/Arshia/Desktop/Algo/Algorithm-Assignment-1/file_handler.cpp
+CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj: C:/Users/morta/OneDrive/Desktop/Algorithm-Assignment-1/file_handler.cpp
 CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj: CMakeFiles/Algorithm_Assignment_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj"
-	"D:\CLion 2022.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj -MF CMakeFiles\Algorithm_Assignment_1.dir\file_handler.cpp.obj.d -o CMakeFiles\Algorithm_Assignment_1.dir\file_handler.cpp.obj -c C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\file_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj"
+	C:\Users\morta\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj -MF CMakeFiles\Algorithm_Assignment_1.dir\file_handler.cpp.obj.d -o CMakeFiles\Algorithm_Assignment_1.dir\file_handler.cpp.obj -c C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\file_handler.cpp
 
 CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.i"
-	"D:\CLion 2022.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\file_handler.cpp > CMakeFiles\Algorithm_Assignment_1.dir\file_handler.cpp.i
+	C:\Users\morta\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\file_handler.cpp > CMakeFiles\Algorithm_Assignment_1.dir\file_handler.cpp.i
 
 CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.s"
-	"D:\CLion 2022.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\file_handler.cpp -o CMakeFiles\Algorithm_Assignment_1.dir\file_handler.cpp.s
+	C:\Users\morta\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\file_handler.cpp -o CMakeFiles\Algorithm_Assignment_1.dir\file_handler.cpp.s
 
 # Object files for target Algorithm_Assignment_1
 Algorithm_Assignment_1_OBJECTS = \
@@ -110,7 +110,7 @@ Algorithm_Assignment_1.exe: CMakeFiles/Algorithm_Assignment_1.dir/build.make
 Algorithm_Assignment_1.exe: CMakeFiles/Algorithm_Assignment_1.dir/linkLibs.rsp
 Algorithm_Assignment_1.exe: CMakeFiles/Algorithm_Assignment_1.dir/objects1.rsp
 Algorithm_Assignment_1.exe: CMakeFiles/Algorithm_Assignment_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Algorithm_Assignment_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Algorithm_Assignment_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Algorithm_Assignment_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/Algorithm_Assignment_1.dir/clean:
 .PHONY : CMakeFiles/Algorithm_Assignment_1.dir/clean
 
 CMakeFiles/Algorithm_Assignment_1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1 C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1 C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\cmake-build-debug C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\cmake-build-debug C:\Users\Arshia\Desktop\Algo\Algorithm-Assignment-1\cmake-build-debug\CMakeFiles\Algorithm_Assignment_1.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1 C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1 C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\cmake-build-debug C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\cmake-build-debug C:\Users\morta\OneDrive\Desktop\Algorithm-Assignment-1\cmake-build-debug\CMakeFiles\Algorithm_Assignment_1.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Algorithm_Assignment_1.dir/depend
 

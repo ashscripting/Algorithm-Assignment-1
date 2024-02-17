@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Arshia/Desktop/Algo/Algorithm-Assignment-1/file_handler.cpp" "CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj" "gcc" "CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj.d"
-  "C:/Users/Arshia/Desktop/Algo/Algorithm-Assignment-1/main.cpp" "CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj" "gcc" "CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj.d"
+  "C:/Users/morta/OneDrive/Desktop/Algorithm-Assignment-1/file_handler.cpp" "CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj" "gcc" "CMakeFiles/Algorithm_Assignment_1.dir/file_handler.cpp.obj.d"
+  "C:/Users/morta/OneDrive/Desktop/Algorithm-Assignment-1/main.cpp" "CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj" "gcc" "CMakeFiles/Algorithm_Assignment_1.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
